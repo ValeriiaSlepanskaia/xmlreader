@@ -1,4 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <eShop shopName="eShop">
+  <!--This is a order list of eShop-->
   <order IdOrder="1">
     <Client IdClient="5" />
     <Product IdProduct="9" />
@@ -16,3 +19,4 @@
     <Price>3000.0</Price>
   </order>
 </eShop>
+

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E51D01A9-F765-4129-BF5D-1249D339165A}</ProjectGuid>
+    <ProjectGuid>{BB11C2D1-C014-4B00-ABC5-7FE801FBA7A5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BuildXml</RootNamespace>
-    <AssemblyName>BuildXml</AssemblyName>
+    <RootNamespace>XMLRead</RootNamespace>
+    <AssemblyName>XMLRead</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BrowseEShopXml.cs" />
     <Compile Include="EShop.cs" />
-    <Compile Include="EShopXmlBuilder.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,7 +52,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="eshop.xml" />
+    <Content Include="eshop.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

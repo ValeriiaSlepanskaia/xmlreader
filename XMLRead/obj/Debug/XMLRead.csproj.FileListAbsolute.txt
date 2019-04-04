@@ -1,0 +1,8 @@
+C:\Users\User\source\repos\XMLRead\XMLRead\bin\Debug\XMLRead.exe.config
+C:\Users\User\source\repos\XMLRead\XMLRead\bin\Debug\XMLRead.exe
+C:\Users\User\source\repos\XMLRead\XMLRead\bin\Debug\XMLRead.pdb
+C:\Users\User\source\repos\XMLRead\XMLRead\obj\Debug\XMLRead.csprojAssemblyReference.cache
+C:\Users\User\source\repos\XMLRead\XMLRead\obj\Debug\XMLRead.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\XMLRead\XMLRead\obj\Debug\XMLRead.exe
+C:\Users\User\source\repos\XMLRead\XMLRead\obj\Debug\XMLRead.pdb
+C:\Users\User\source\repos\XMLRead\XMLRead\bin\Debug\eshop.xml
